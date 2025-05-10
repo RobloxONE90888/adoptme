@@ -1,0 +1,5 @@
+
+local GetServerType = game:GetService("RobloxReplicatedStorage").GetServerType
+if GetServerType:InvokeServer() == "VIPServer" then
+game.Players.LocalPlayer:Kick("be in public server")
+endk
